@@ -9,9 +9,6 @@ print(font.renderText('Ehsan Store'))
 # creates the products list. each item is a dictionary.
 PRODUCTS_LIST = []
 
-# address of the database file
-address = 'Pylearn/Session 6/database.txt'
-
 # load the data from file
 def load(address):
   # it returns an object
@@ -147,6 +144,9 @@ def save_n_exit():
 
 
 # Driver program
+# address of the database file
+address = 'database.txt'
+
 load(address)
 
 while True:
